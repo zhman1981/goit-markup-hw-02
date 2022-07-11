@@ -1,0 +1,142 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --blue-text-color: #2196f3;
+    --white-text-color: #ffffff;
+    --black-text-color: #000000;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2f303a;
+    --button-bg-color: #2196f3;
+    --button-portfolio-bg-color: #f5f4fa;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--black-text-color);
+}
+
+.logo-blue {
+    color: var(--blue-text-color);
+}
+
+.header-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.active-page {
+    color: var(--blue-text-color);
+}
+
+.links:hover,
+.links:focus {
+    color: var(--blue-text-color);
+}
+
+.header-contacts {
+    color: var(--secondary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    background-color: var(--button-bg-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--black-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.futures-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.futures-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.team-name {
+    font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-profession {
+    color: var(--secondary-text-color);
+}
+
+.footer-block {
+    background-color: var(--secondary-bg-color);
+}
+
+.contact {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+}
+
+.postmail {
+    color: var(--white-text-color);
+}
+
+.email-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+    color: var(--white-text-color);
+}
